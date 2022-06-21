@@ -1,19 +1,19 @@
-# CSE 544 Computer Vision Project
+# CSE 343 Machine Learning Project
 
-## Yoga Pose Classification using Features Extracted from Key-Point Detection using Machine Learning and Computer Vision(T-1)
+## Rainfall Prediction using Machine Learning (T-28)
 
-#### Work done as a part of the course CSE 544: Computer Vision by Prof. Koteshwar Rao Jerripothula.
+#### Work done as a part of the course CSE 343: Machine Learning by Prof. Jainendra Shukla.
 
 ## About the Project
 
-#### In this project, we present a method to classify and scoresix yoga poses - Tree Pose, Warrior-2 Pose, Goddess Pose, Triangle Pose, Extended Side Angle Pose, and Dancer Poseby designing custom features from human pose key-points. Real life instruction for a large number of poses involves emphasis on angle, the shape that is being formed and the ratio of distances between body parts. To evaluate the effectiveness of our proposed features, we create a dataset for the six poses and apply ML techniques on the featuredata extracted from them. The predictions are evaluated using metrics such as accuracy and F1-score and the yogapose is scored using cosine similarity which can be used as a corrective measure by a self-learner.
+#### There are a plethora of rainfall issues around the globe, floods are an important issue leading to the devastation of life and property. Saving human life and property becomes a challenging task at the time of floods and heavy rainfall. Unsuccessful rainfall predictions can lead to huge losses, hence, it becomes a challenging problem to solve. Lack of rainfall can also lead to forest fire due to dry climates which in turn leads to huge loss of life and property.
 
-#### In this project, we work on Yoga - 82 dataset and classifiy the 82 classes of poses using self designed custom features created using the keypoints obtained from the mediapipe.
+#### In this project, we work on the Australia Rain dataset from kaggle and predict whether there will be rainfall tomorrow based on today’s weather parameters. A case study of different ML models is presented along with reasoning, explaining the differences in the working of these models.
 
 ## DataSet
-#### [DataSet](https://drive.google.com/drive/folders/132OOTGoOD52bpGTQUeCLXDeO__KI0_gP?usp=sharing)
-
-#### The dataset is used in the Yoga - 82 dataset paper.
+#### [DataSet](https://github.com/RahulSethi070801/ML_Project/blob/main/DataSet/weatherAUS.csv)
+#### You can download the Kaggle Dataset from [here](https://www.kaggle.com/jsphyg/weather-dataset-rattle-package/version/2)
+#### The dataset used is the Australian Rain dataset on kaggle. It contains data for the last 10 years across different regions of Australia. There are 24 columns in the dataset, as shown by Table below
 
 ![DataSet Description](https://github.com/RahulSethi070801/ML_Project/blob/main/DataSet/Description.PNG?raw=true "DataSet Description")
 
